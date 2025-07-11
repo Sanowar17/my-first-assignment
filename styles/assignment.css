@@ -12,13 +12,22 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+.header{
+    background-image: url('../Assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.webflow{
+    margin: 309px 267px 152px 267px;
+}
 
 .btn-primary{
     background-color: #4E47FF;
     font-weight: bold;
     color: #FFFFFF;
     padding: 12px 36px;
-    border-radius: 5px;
+    border-radius: 6px;
     border: none;
 }
 /* Nav Styles */
@@ -43,6 +52,96 @@ nav ul li{
     color: #252432;
     text-align: center;
 }
-.stay-focused{
-    align-items: center;
+.center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
+
+.stay-focused {
+  padding: 10px 20px;
+  background-color: #4f46e5; 
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 152px;
+}
+
+/* See It in Action */
+main{
+ background-color: #FFFFFF;
+ width: 1140px;
+ height: 328px;
+ margin: 0 auto;
+ display: flex;
+ gap: 220px;
+ justify-content: space-between;
+}
+.left-section{
+    width: 517px;
+    height: 203px;
+    padding-top: 62.5px;
+    padding-bottom: 62.5px;
+}
+.right-section{
+    background-position: 737px 0px;
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+    opacity: 100%;
+
+}
+.launch-btn{
+    padding: 12px 36px;
+    margin-top: 23px;
+    margin-bottom: 62.5px;
+    
+}
+.action{
+    font-size: 42px;
+    font-weight: bold;
+    color: rgba(37, 36, 50, 1);
+    margin-top: 62.5px;
+    margin-bottom: 23px;
+}
+.section-description{
+   color: rgba(0, 0, 0, 0.5);
+   font-size: 24px;
+   font-weight: 400;
+   margin-top: 23px;
+   margin-bottom: 23px;
+
+}
+
+.productive-section{
+    width: 1140px;
+    height: 306px;
+    border: 1px solid blueviolet;
+        /* margin: 116px 159px 0px 141px; */
+        margin: 0 auto;
+        margin-top: 116px;
+        background-color: rgba(78, 71, 255, 0.1);
+        /* padding: 50px 142px; */
+        border: 116px 159px 137px 141px;
+        border-radius: 24px;
+        padding: 80px 50px;
+        background-position: 141px 1258px;
+        
+    
+}
+.jonied{
+    text-align: center;
+    font-weight: bold;
+    font-size: 38px;
+    color: rgba(37, 36, 50, 1);
+    width: 856px;
+    height: 45px;
+    padding: 50px 142px 40px 142px;
+   
+
+}
+
+
